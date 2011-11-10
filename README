@@ -1,4 +1,8 @@
-Prusa Mendel
+RepRap.no Basic Prusa Mendel
+
+This is a fork of gregfrost fork of Prusa Mendel. It'll be a basic getting-started lm8uu Prusa Mendel with upgrades we like, and we will print and support this design for the norwegian community.
+
+-Nudel, RoTorIT and more.
 
 Please read http://reprap.org/wiki/Prusa_Mendel before attempting to build this. There is also PDF (manual-wiki) with backup documentation from reprap.org.  
 
