@@ -39,8 +39,8 @@ vertex_end_major_d=30.15;
 vertex_end_minor_d=18.5;
 vertex_horizontal_hole_offset=11.75;
 hole_flat_radius=8.5; // flat surface around holes.
-foot_depth=26.25;
-end_round_translation=vertex_horizontal_hole_offset-hole_flat_radius;
+foot_depth=26.25+10;
+end_round_translation= (vertex_horizontal_hole_offset-hole_flat_radius)*1;
 
 module vertex(with_foot=true)
 {
@@ -98,8 +98,8 @@ module vertex(with_foot=true)
 				if (with_foot)
 				{
 					// Curves for the feet
-					barbell(a1,a3,a1_r,a3_r,200,20);
-					barbell(a2,a4,a2_r,a4_r,20,200);
+					barbell(a1,a3,a1_r,a3_r,400,38); // Nudel 08.11.2011 - made the foot fatter to compensate for added height.
+					barbell(a2,a4,a2_r,a4_r,38,400);
 
 					// The flat bit on the bottom of the foot.
 					polygon(points=[a3+[0,-a3_r],a4+[0,-a4_r],(a3+a4)/2+[0,5]],
