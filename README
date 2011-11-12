@@ -1,14 +1,14 @@
 RepRap.no Basic Prusa Mendel
 
-This is a fork of gregfrost's fork of PrusaMendel. It'll be a basic getting-started metric lm8uu Prusa Mendel with upgrades we like. We will print, document and support this design for the norwegian community at reprap.no. Others are of course welcome to use this, but our documentation will be written in norwegian.
+This is a fork of gregfrost's fork of PrusaMendel. It'll be a basic getting-started metric lm8uu Prusa Mendel with upgrades we like. We will print, document and support this design for the norwegian community at reprap.no. Others are of course more than welcome to use this, even though our documentation will be written in norwegian (don't worry it'll have a lot of pictures!).
 
-The files needed for the printer is located in the /stl folder.
-Extra upgrades or alternative parts are located in /stlextra.
-Source files (where available) are in the root directory.
+The files needed for the printer is located in /stl.
+Extra upgrades or alternative parts are located in /stl_extra.
+Source files (where available) are in /source. This includes
 No thingdoc setup as of yet, but we hope to add that at some point.
 
 -Nudel, RoTorIT and others.
-You can reach us at freenode IRC #reprap.no
+You can reach us at freenode IRC #reprap and #reprap.no
 
 
 Included files:
