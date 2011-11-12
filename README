@@ -3,8 +3,8 @@ RepRap.no Basic Prusa Mendel
 This is a fork of gregfrost's fork of PrusaMendel. It'll be a basic getting-started metric lm8uu Prusa Mendel with upgrades we like. We will print, document and support this design for the norwegian community at reprap.no. Others are of course more than welcome to use this, even though our documentation will be written in norwegian (don't worry it'll have a lot of pictures!).
 
 The files needed for the printer is located in /stl.
-Extra upgrades or alternative parts are located in /stl_extra.
-Source files (where available) are in /source. This includes
+Extra upgrades or alternative parts that we encourage you to ship with your set are located in /stl_extra.
+Source files (OpenSCAD, where available) are in /source. The sources files include a lot more parts than you need to print. But alternatives are always good to look at.
 No thingdoc setup as of yet, but we hope to add that at some point.
 
 -Nudel, RoTorIT and others.
@@ -14,6 +14,17 @@ You can reach us at freenode IRC #reprap and #reprap.no
 Included files:
 pla_coupling.scad - Symmetric Prusa z-coupling by fil http://www.thingiverse.com/thing:11220 - Licensed under CC - GNU GPL
 joem_arcol-gregs-x-carriage.scad - GregFrost lm8uu X carriage for Arcol hotend by joem_ http://www.thingiverse.com/thing:10885 - Licensed under CC - Share alike
+
+To print:
+
+
+Alternative prints:
+pla_coupling.stl
+
+
+Spare parts:
+(Purely as a precaution)
+
 
 
 ********************
